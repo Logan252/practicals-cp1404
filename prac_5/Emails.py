@@ -1,5 +1,7 @@
 """estiamted time: 20 minutes
 actual time: 26 minutes"""
+
+
 def main():
     """Create dictionary of emails-to-names."""
     email_to_name = {}
