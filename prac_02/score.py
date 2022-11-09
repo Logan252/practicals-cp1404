@@ -1,9 +1,9 @@
 def main():
-
-    score = float(input("Enter score: "))
+    score = int(input("Enter score: "))
     while score < 0 or score > 100:
         score = float(input("Enter a valid score: "))
     print(grade(score))
+    print_asterisks(score)
 
 
 def grade(score):
@@ -13,6 +13,10 @@ def grade(score):
         return "passable"
     else:
         return "bad"
+
+
+def print_asterisks(score):
+    print('*' * score)
 
 
 main()
